@@ -13,7 +13,11 @@ There are 3 ways two add CSS: **Inline**, **Internal** and **External** the one 
 
 ##	3. Colors In CSS
 There are different ways to apply color in CSS.
-> p { color: blue; }
+
+    p {
+	    color: blue;
+	}
+
 - Color names.
 - HTML 5 Color names.
 - Hexadecimal
@@ -33,9 +37,12 @@ Each box has four areas which are: content, padding, border and margin.
 
 - **Content** consists of content like text, image, or other media content. It is bounded by the content edge and its dimensions are given by **content box** width and height.
 :sparkles: Example:
-	 > .class-name {  
-	   box-sizing: content-box
-	}
+
+.
+
+    .clas-name {
+	    box-sizing: content-box;
+    }
 
 **Padding:** It includes the element’s padding. This area is actually the space around the content area and within the border box. Its dimensions are given by the width of the padding-box and the height of the padding-box.
 
@@ -44,23 +51,26 @@ Each box has four areas which are: content, padding, border and margin.
 **Margin:** This area consists of space between border and margin. The dimensions of Margin area are the margin-box width and the margin-box height. It is useful to separate the element from its neighbors.
 
 ### Margin and padding shorthand:
-> p {
-		margin-top: 5px;
-		margin-bottom: 5px;
-		margin-right: 5px;
-		margin-left: 5px;
-> }
+
+    p  {
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+    	margin-right: 5px;
+    	margin-left: 5px;
+     }
 
 Shorthand
-> p {
-> margin: 5px 10px 5px 10px;
-> }
+
+    p {
+	    margin: 5px 10px 5px 10px;
+    }
 
 Shorthand top and bottom, left and right.
-> p {
-> margin: 5px 10px;
-> }
->
+
+    p {
+    margin: 5px 10px;
+    }
+
 ## 6. Position In CSS
 Some values for  posistioning property in CSS:
 
